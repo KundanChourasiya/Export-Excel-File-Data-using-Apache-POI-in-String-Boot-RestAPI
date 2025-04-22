@@ -8,7 +8,6 @@
 - Spring Boot-3x
 - lombok
 - PostMan
-- Swagger UI
 
 ## Modules
 * Product Module
