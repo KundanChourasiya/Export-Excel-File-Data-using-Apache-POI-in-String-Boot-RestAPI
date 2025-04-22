@@ -13,6 +13,6 @@ public interface ProductService {
     // POST: Save a new Product
     public Product saveProduct(Product product);
 
-    // GET: Generate a product list Report
+    // GET: Generate a product list excel Report
     public ByteArrayInputStream generateExcel();
 }
