@@ -90,7 +90,6 @@ public class ProductServiceImpl implements ProductService {
 
             // write the data into Excel file
             workbook.write(out);
-            return new ByteArrayInputStream(out.toByteArray());
 
         } catch (IOException e) {
             e.printStackTrace();
